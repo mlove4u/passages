@@ -4,7 +4,7 @@
 * 本地版(Python3)：
   * 直接运行
     * 将要查找的经文出处输入到 bible_input.txt 中，关闭txt文件
-    * 运行get_passages.py
+    * 运行 get_passages.py
     * 经文自动写入到 bible_output.txt
   * 作为模块调用
     > from get_passages import get_passages   
