@@ -1,5 +1,10 @@
 ## 批量获取圣经经文
-
+### 运行环境
++ 本地版：Python3
+  + 1.将要查找的经文输入到 bible_input.txt 中，关闭txt文件
+  + 2.运行get_passages.py
+  + 3.经文自动写入到bible_output.txt
+* 在线版(Python2)：http://bible-passages.appspot.com/
 ### 输入符号说明
 *   :　(冒号)：区分章和节。如：创1:2→创世记1章2节
 *   ,　(逗号)：X章(节) 和 X章(节)。如：创1:2,4→创世记1章第2节，4节(不包含第3节)
