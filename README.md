@@ -8,7 +8,7 @@
     * 经文自动写入到 bible_output.txt
   * 作为模块调用
     > from get_passages import get_passages   
-    > get_passages("出处")   
+    > get_passages("出处") # 不同出处用半角分号“**;**”分隔，如：创1:3-5,6;太2:1         
     > #返回list，结构为: [{"BookName": 书卷名, "CV": 章节, "contents": [经文内容:list], "Error": 错误信息},{...}...]
 * 在线版(Python2)：http://bible-passages.appspot.com/
 
