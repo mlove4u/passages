@@ -1,5 +1,4 @@
 ## 批量获取圣经经文
-
 ### 运行环境
 * 本地版(Python3)：
   * 直接运行
@@ -9,7 +8,7 @@
   * 作为模块调用
     > from get_passages import get_passages   
     > get_passages("出处") # 不同出处用半角分号“**;**”分隔，如：创1:3-5,6;太2:1         
-    > #返回list，结构为: [{"BookName": 书卷名, "CV": 章节, "contents": [经文内容:list], "Error": 错误信息},{...}...]
+    > #返回list，结构为: [{"Origin": 原始输入, "BookName": 书卷名, "CV": 章节, "contents": [经文内容:list], "Error": 错误信息},{...}...]
 * 在线版(Python2)：http://bible-passages.appspot.com/
 
 ### 符号说明
