@@ -4,7 +4,7 @@
   * 直接运行
     * 将要查找的经文出处输入到 bible_input.txt 中，关闭txt文件
     * 运行 get_passages.py
-    * 经文自动写入到 bible_output.txt
+    * 经文自动生成（写入）到同目录下的 bible_output.txt
   * 作为模块调用
     > from get_passages import get_passages   
     > get_passages("出处") # 不同出处用半角分号“**;**”分隔，如：创1:3-5,6;太2:1         
